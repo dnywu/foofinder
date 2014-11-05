@@ -1,0 +1,8 @@
+language: go
+notificaitons:
+  email:
+    recipients: denny@inforsys.co.id
+    on_success: change
+    on_failure: always
+before_script:
+- go get github.com/bmizerany/assert
